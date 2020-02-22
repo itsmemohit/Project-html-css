@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <title>My Webpage</title>
+    <link rel="stylesheet" href="1.css">
+    <script language="JavaScript">
+        function showInput() {
+            document.getElementById('display').innerHTML = "Hello world";
+
+        }
+    </script>
+
+
+</head>
+
+<Body>
+    <div class="First">
+
+        <form>
+            <h1>you will learn to type "Hello world" in python!!</h1>
+            <label><b>Type here "print("Hello world")"</b></label>
+            <input type="text" name="message" id="input">
+        </form>
+
+        <input type="submit" onclick="showInput();"><br/>
+        <label>Your input: </label>
+        <p><span id='display'></span></p>
+        <p><a href="https://progate.com/languages/python">Learn more python from progate</a></p>
+
+    </div>
+
+
+
+    <style>
+        div {
+            background-image: url('photo.jpg');
+        }
+    </style>
+</Body>
